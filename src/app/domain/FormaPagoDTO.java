@@ -13,6 +13,8 @@ public class FormaPagoDTO
 	private int idFormaPago;
 	private String descripcion;
 	private double recargo;
+        
+        //getters y setters
 
 	public int getIdFormaPago()
 	{

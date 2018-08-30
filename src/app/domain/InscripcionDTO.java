@@ -7,6 +7,8 @@ public class InscripcionDTO
 	private String telefono;
 	private int idCurso;
 	private int idFormaPago;
+        
+        //getters y setters
 
 	public int getIdInsc()
 	{

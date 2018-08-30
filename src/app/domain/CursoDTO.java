@@ -13,6 +13,8 @@ public class CursoDTO
 	private int idCurso;
 	private String descripcion;
 	private double precio;
+        
+        //getters y setters
 
 	public int getIdCurso()
 	{
