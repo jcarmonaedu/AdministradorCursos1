@@ -10,3 +10,6 @@ En los archivos, en la carpeta \AdministradorCursos1\dist\lib existe el jar hsql
 equipo debe configurar la base de datos. Puedes seguir el manual de configuracion de hqldb: https://www.tutorialspoint.com/hsqldb/hsqldb_installation.htm
 
 La clase UConnection es la encargada de hacer la conexion con la BD.
+
+El script de base de datos esta en el archivo script_bd.sql
+El server.properties esta en el repositorio. Este archivo lo colocan en la raiz de la instalacion de hsqldb. 
