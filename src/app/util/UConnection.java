@@ -15,9 +15,9 @@ public class UConnection
 				return con;
 			}
 			// parametros del la conexion
-			String driver = "org.hsqldb.jdbcDriver";
-			String url = "jdbc:hsqldb:hsql://localhost/testdb";
-			String usr = "SA";
+			String driver = "com.mysql.jdbc.Driver";
+			String url = "jdbc:mysql://localhost:3306/ventaCursos";
+			String usr = "root";
 			String pwd = "";
 			// levanto el driver
 			Class.forName(driver);

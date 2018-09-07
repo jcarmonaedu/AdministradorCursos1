@@ -12,7 +12,7 @@ public class App
 {
 	public static void main(String args[])
 	{   
-		// instancio el Facade
+		// instancio el Facade.
 		Facade f=new Facade();
 
 		// muestro la pantalla de inscripcion
