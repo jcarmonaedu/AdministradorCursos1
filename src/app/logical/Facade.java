@@ -23,7 +23,7 @@ public class Facade
 
 	public List<FormaPagoDTO> obtenerFormasPago()
 	{
-		FormaPagoDTO dao=new FormaPagoDTO();
+		FormaPagoDAO dao=new FormaPagoDAO();
 		return dao.getFormasPago();
 	}
 }
